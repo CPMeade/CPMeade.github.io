@@ -1,5 +1,5 @@
 html {
-  background-image: "fishBackground.jpg";  
+  background-image: url("fishBackground.jpg");  
 }
 
 body {
