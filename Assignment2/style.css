@@ -12,7 +12,7 @@ html {
 	}
 body { 
 	background-image: url(ocean-background.jpg);
-    	background-repeat: repeat-x;
+    	background-size: cover;
    	background-position: top;
    	background-color: #F0ECD6;
 }
