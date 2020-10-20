@@ -20,12 +20,14 @@ body {
 p { 
 	background-color: lightblue;
   	opacity: 0.9;
-	padding: 30;
+	padding: 30px;
+	border-radius: 10px;
 	}
 h3 { 
 	background-color: lightblue;
   	opacity: 0.9;
-	padding: 30;
+	padding: 30px;
+	border-radius: 10px;
 	}
 a:link { 
 	}
@@ -52,21 +54,41 @@ header {
 }
 
 .summary {
+	background-color: lightblue;
+  	opacity: 0.9;
+	padding: 30px;
+	border-radius: 10px;
 	}
 .summary p {
 	}
 
 .preamble {
+	background-color: lightblue;
+  	opacity: 0.9;
+	padding: 30px;
+	border-radius: 10px;
 	}
 .supporting {	
+	background-color: lightblue;
+  	opacity: 0.9;
+	padding: 30px;
+	border-radius: 10px;
 	}
 
 footer { 
+	background-color: lightblue;
+  	opacity: 0.9;
+	padding: 30px;
+	border-radius: 10px;
 	}
 footer a:link, footer a:visited { 
 	}
 
 .sidebar {
+	background-color: lightblue;
+  	opacity: 0.9;
+	padding: 30px;
+	border-radius: 10px;
 	}
 .sidebar .wrapper { 
 	}
