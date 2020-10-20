@@ -22,12 +22,14 @@ p {
   	opacity: 0.9;
 	padding: 30px;
 	border-radius: 10px;
+	margin: 20px;
 	}
 h3 { 
 	background-color: lightblue;
   	opacity: 0.9;
 	padding: 30px;
 	border-radius: 10px;
+	margin: 20px;
 	}
 a:link { 
 	}
@@ -58,6 +60,7 @@ header {
   	opacity: 0.9;
 	padding: 30px;
 	border-radius: 10px;
+	margin: 20px;
 	}
 .summary p {
 	}
@@ -67,12 +70,14 @@ header {
   	opacity: 0.9;
 	padding: 30px;
 	border-radius: 10px;
+	margin: 20px;
 	}
 .supporting {	
 	background-color: lightblue;
   	opacity: 0.9;
 	padding: 30px;
 	border-radius: 10px;
+	margin: 20px;
 	}
 
 footer { 
@@ -80,6 +85,7 @@ footer {
   	opacity: 0.9;
 	padding: 30px;
 	border-radius: 10px;
+	margin: 20px;
 	}
 footer a:link, footer a:visited { 
 	}
@@ -89,6 +95,7 @@ footer a:link, footer a:visited {
   	opacity: 0.9;
 	padding: 30px;
 	border-radius: 10px;
+	margin: 20px;
 	}
 .sidebar .wrapper { 
 	}
