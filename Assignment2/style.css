@@ -18,8 +18,14 @@ body {
 }
 	}
 p { 
+	background-color: lightblue;
+  	opacity: 0.9;
+	padding: 5;
 	}
 h3 { 
+	background-color: lightblue;
+  	opacity: 0.9;
+	padding: 5;
 	}
 a:link { 
 	}
