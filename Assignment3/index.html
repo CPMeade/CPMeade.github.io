@@ -20,7 +20,11 @@
   <script>
     function moveLeft() {
       // move the fish left
-      
+      var fish = document.getElementById("fish");
+      var leftDist = parseInt(fish.style.left.replace(/[^0-9]/g,''));
+      if (leftDist > 0) {
+	  fish.style.left = leftDist - 100 + "px";
+      }
     }
     
     function moveRight() {
