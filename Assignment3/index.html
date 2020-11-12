@@ -26,11 +26,10 @@
     function moveRight() {
       // move the fish right
       var fish = document.getElementById("fish");
-      console.log("right");
       var leftDist = parseInt(fish.style.left.replace(/[^0-9]/g,''));
-      console.log(leftDist);
-      fish.style.left = leftDist + 50 + "px";
-      console.log(fish.style.left);
+      if (leftDist < 500) {
+	  fish.style.left = leftDist + 100 + "px";
+      }
     }
     
     function fire() {
@@ -39,7 +38,7 @@
     }
   </script>
   
-  <img id = "fish" src="fish_hero.png" style="position: relative; left: 10px">
+  <img id = "fish" src="fish_hero.png" style="position: relative; left: 300px">
   <br>
   
   <button id="left" onclick="moveLeft()"><-</button>
