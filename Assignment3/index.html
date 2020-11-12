@@ -27,8 +27,9 @@
       // move the fish right
       var fish = document.getElementById("fish");
       console.log("right");
-      console.log(fish.style.left);
-      fish.style.left = fish.style.left + 50;
+      var leftDist = fish.style.left.replace(/[^0-9]/g,'');
+      console.log(leftDist);
+      fish.style.left = leftDist + 50 + "px";
       console.log(fish.style.left);
     }
     
